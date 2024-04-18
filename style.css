@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* TODO: Edit the properties below to customize your website! */
+body {
+  background-color: #B99470;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 20pt;
+  margin: 20px 50px 30px 50px;
+}
+
+p {
+  width: 80%;
+  text-align: left;
+  margin: 20px 100px;
+}
+
+.bubble {
+  background-color: #F9EFDB;
+  border-radius: 10px;
+
+  width: 80%;
+  padding: 10px 0;
+  margin: 50px 0 10px 0;
+}
+
+/* Edit me to change the appearance of the button! */
+button {
+  font-size: 12pt;
+  
+  background-color: #A9B388;
+  border: none;
+  /* for rounded corners */
+  border-radius: 8px;
+
+  width: 150px;
+  height: 50px;
+  margin: 20px 100px;
+}
+
+button: hover {
+  background-color: #F9EFDB;
+  cursor: pointer;
+}
+
+/* The camera */
+#webcam-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* The labels */
+#label-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 12pt;
+
+  margin: 25px;
+}

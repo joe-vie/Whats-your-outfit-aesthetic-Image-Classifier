@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>What's your outfit aesthetic?: Image Edition</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- Hello! Welcome to the IMAGE TEMPLATE YAAY \(^0 ^)/
+  You're in the process of building something *amazing*
+  
+  Tips to get started:
+  1) Change the text on line 31 to a new title for your website!
+    (P.S. You can also change the tab title on line 7)
+
+  2) Paste a link to your model in the "script.js" file (you can find it in the menu on the left)
+
+  3) Press the Start! button in the Webview panel to see your model in action -(*o* )- . Note: It may take a few seconds to load.
+
+  Press the refresh button in the Webview to close the camera.
+
+  4) Add your own colors and styling in the "style.css" file in the left menu!
+  
+  -->
+
+  <div class="bubble">
+    <h1>What's my outfit aesthetic?: Image Edition</h1>
+    <p>Hey there! Looking to figure out what aesthetic you may be based on your outfit? Well, you've come to the right place! With this state-of-the-art Teachable Machine, you can enable the camera and see if your outfit is "Scene", "Grunge", or "Coquette".</p>
+    
+    <button type="button" onclick="init()">Start!</button>
+    
+    <div id="webcam-container"></div> <!-- Camera for testing data -->
+    <div id="label-container"></div> <!-- Show the predicted label -->
+  </div>
+
+  <div class="bubble">
+    <h1>About the Creator</h1>
+    <p>My name is Jovie and I am a high school sophomore. I am a passionate artist & coder and am always looking to learn more about the technical and artistic realms. For more information, please reach out to me at <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBpDltcTXjKPptGdtJJCJVGkGCbPCkNGDSddnWgBnRWdsQhWhQXCBSpXMzjdnfBlCDDTVzg"> marcemg101@gmail.com</a>. Thank you for visiting my website!</p>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
